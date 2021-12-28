@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/fav-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/fav-16.png">
+    <link rel="stylesheet" href="plagins/css-slider/style-slider.min.css">
+    <link rel="stylesheet" href="css/sylle.min.css">
+    <title>Satellite</title>
+</head>
+<body>
+    <header>
+        <div class="header__top">
+            <div class="container__top">
+                <div class="header__top-inner">
+                    <div class="header__top-left">
+                        <div class="header__top-city city">
+                            <svg class="mark-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 512 512">
+                                <title></title>
+                                <g id="icomoon-ignore">
+                                </g>
+                                <path d="M256 0c-88.366 0-160 71.634-160 160 0 160 160 352 160 352s160-192 160-352c0-88.366-71.635-160-160-160zM256 256c-53.020 0-96-42.98-96-96s42.98-96 96-96 96 42.98 96 96-42.98 96-96 96z"></path>
+                                </svg>
+                            <span class="city-mark">Ваш город:</span>
+                            <a class="city__choice" href="#">Славянск</a>
+                        </div>
+                        <div class="header-leng">
+                            <span class="header-leng-items">Ваш язык:</span>
+                            <select class="header-leng__item" name="leng" id="">
+                                <option value="len-1">RU</option>
+                                <option value="len-2">UA</option>
+                                <option value="len-3">EU</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="header__top-right">
+                        <div class="header__top-phone">
+                                <div class="header-top__number">
+                                    <svg class="phone-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 512 512">
+                                        <title></title>
+                                        <g id="icomoon-ignore">
+                                        </g>
+                                        <path d="M352 320c-32 32-32 64-64 64s-64-32-96-64-64-64-64-96 32-32 64-64-64-128-96-128-96 96-96 96c0 64 65.75 193.75 128 256s192 128 256 128c0 0 96-64 96-96s-96-128-128-96z"></path>
+                                        </svg>
+                                    <a href="tel:+38(050)8145024">+38(050)8145024</a>
+                                    <span class="menu-arrow"></span>
+                                    <!-- <nav class="header-menu__number">
+                                        <ul class="menu__number-list">
+                                            <li>
+                                                <a class="menu__number-link" href="#">+38(050)8145024</a>
+                                            </li>
+                                            <li>
+                                                <a class="menu__number-link" href="#">+38(093)8145024</a>
+                                            </li>
+                                            <li>
+                                                <a class="menu__number-link" href="#">+38(067)8145024</a>
+                                            </li>
+                                            <li>
+                                                <a class="menu__number-link" href="#">support@slav.dn.ua</a>
+                                            </li>
+                                        </ul>
+                                    </nav> -->
+                                </div>
+                                <div class="header__top-account">
+                                    <svg class="avatar-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="19" height="169" viewBox="0 0 512 512">
+                                        <title></title>
+                                        <g id="icomoon-ignore">
+                                        </g>
+                                        <path d="M288 353.306v-26.39c35.249-19.864 64-69.386 64-118.916 0-79.529 0-144-96-144s-96 64.471-96 144c0 49.53 28.751 99.052 64 118.916v26.39c-108.551 8.874-192 62.21-192 126.694h448c0-64.484-83.449-117.82-192-126.694z"></path>
+                                        </svg>
+                                        <div class="header__top-myaccount">
+                                            Мой аккаунт
+                                        </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__main">
+            <div class="container">
+                <div class="header__main-menu head-menu">
+                    <div class="header__logo">
+                        <a href="#">
+                            <img src="img/satelitte_logo.png" alt="логотип сайта">
+                        </a>
+                    </div>
+                    <nav class="head-menu">
+                        <ul>
+                            <li><a href="#" target="_blanck">Цены</a></li>
+                            <li><a href="#" target="_blanck">Акции</a></li>
+                            <li><a href="#" target="_blanck">Карта сети</a></li>
+                            <li><a href="#" target="_blanck">Документы</a></li>
+                            <li><a href="#" target="_blanck">Контакты</a></li>
+                            <li><a href="pages/information.html" target="_blanck">Информация</a></li>
+                            <li><a href="#" target="_blanck">Новости</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="slider">
+    <div class="main">
+        <div class="container">
+            <div class="main__inner">
+                <div class="main__inner-titleinfo">
+                    <div class="main__inner-title">
+                        <h1>
+                            <span>Современное</span> </br> сертифицированное</br> оборудование
+                        </h1>
+                    </div>
+                    <div class="main__inner-subtitle">
+                        Устойчевое качество соединения
+                    </div>
+                    <div class="main__inner-btn btn">
+                        <button class="btn__main">Присоединится</button>
+                    </div>
+                </div>
+                <div class="main__inner-images">
+                    <div class="main__inner-img">
+                        <img src="img/main__photo.png" alt="">
+                    </div>
+                </div>
+                <!-- <span class="pulse"></span>
+                <span class="pulse__two"></span> -->
+            </div>
+            <div class="circle">
+                
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="container">
+            <div class="main__inner">
+                <div class="main__inner-titleinfo">
+                    <div class="main__inner-title">
+                        <h1>
+                            <span>Современное</span> </br> сертифицированное</br> оборудование
+                        </h1>
+                    </div>
+                    <div class="main__inner-subtitle">
+                        Устойчевое качество соединения
+                    </div>
+                    <div class="main__inner-btn btn">
+                        <button class="btn__main">Присоединится</button>
+                    </div>
+                </div>
+                <div class="main__inner-images">
+                    <div class="main__inner-img">
+                        <img src="img/main__photo.png" alt="">
+                    </div>
+                </div>
+                <!-- <span class="pulse"></span>
+                <span class="pulse__two"></span> -->
+            </div>
+            <div class="circle">
+                
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="container">
+            <div class="main__inner">
+                <div class="main__inner-titleinfo">
+                    <div class="main__inner-title">
+                        <h1>
+                            <span>Современное</span> </br> сертифицированное</br> оборудование
+                        </h1>
+                    </div>
+                    <div class="main__inner-subtitle">
+                        Устойчевое качество соединения
+                    </div>
+                    <div class="main__inner-btn btn">
+                        <button class="btn__main">Присоединится</button>
+                    </div>
+                </div>
+                <div class="main__inner-images">
+                    <div class="main__inner-img">
+                        <img src="img/main__photo.png" alt="">
+                    </div>
+                </div>
+                <!-- <span class="pulse"></span>
+                <span class="pulse__two"></span> -->
+            </div>
+            <div class="circle">
+                
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="container">
+            <div class="main__inner">
+                <div class="main__inner-titleinfo">
+                    <div class="main__inner-title">
+                        <h1>
+                            <span>Современное</span> </br> сертифицированное</br> оборудование
+                        </h1>
+                    </div>
+                    <div class="main__inner-subtitle">
+                        Устойчевое качество соединения
+                    </div>
+                    <div class="main__inner-btn btn">
+                        <button class="btn__main">Присоединится</button>
+                    </div>
+                </div>
+                <div class="main__inner-images">
+                    <div class="main__inner-img">
+                        <img src="img/main__photo.png" alt="">
+                    </div>
+                </div>
+                <!-- <span class="pulse"></span>
+                <span class="pulse__two"></span> -->
+            </div>
+            <div class="circle">
+                
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="container">
+            <div class="main__inner">
+                <div class="main__inner-titleinfo">
+                    <div class="main__inner-title">
+                        <h1>
+                            <span>Современное</span> </br> сертифицированное</br> оборудование
+                        </h1>
+                    </div>
+                    <div class="main__inner-subtitle">
+                        Устойчевое качество соединения
+                    </div>
+                    <div class="main__inner-btn btn">
+                        <button class="btn__main">Присоединится</button>
+                    </div>
+                </div>
+                <div class="main__inner-images">
+                    <div class="main__inner-img">
+                        <img src="img/main__photo.png" alt="">
+                    </div>
+                </div>
+                <!-- <span class="pulse"></span>
+                <span class="pulse__two"></span> -->
+            </div>
+            <div class="circle">
+                
+            </div>
+        </div>
+    </div>
+    </section>
+    <section class="rates">
+        <div class="container">
+            <div class="tarifs__info">
+                <div class="info__titel">
+                    <h2>Популярные тарифы</h2>
+                </div>
+                <div class="info__more">
+                    <a class="info__more-link" href="#">
+                        Больше тарифов...
+                    </a>
+                </div>
+            </div>
+            <div class="rates__tarifs tarifs">
+                <div class="tarif-1">
+                    <div class="tarif-top blue">
+                        <img src="img/tarif_icon-1.png" alt="tarif-1">
+                        <p>Elite</p>
+                    </div>
+                    <div class="tarif-main">
+                        <div class="tafif-main__price price">До <span class="price-blue">250</span> Мбит/с</div>
+                        <div class="tarif__info">максимальные скорость и качество, любое кол-во устройств одновременно</div>
+                        <div class="tarif__info">срок действия 30 дней</div>
+                        <div class="tarif__info">стоимость 250 грн/мес</div>
+                    </div>
+                    <div class="tarif__btn">
+                        <button class="btn-blue-click btn-blue">подключить</button>
+                    </div>
+                    <div class="tarif__detals">
+                        показать детали тарифа
+                    </div>
+                </div>
+                <div class="tarif-2">
+                    <div class="tarif-top red">
+                        <img src="img/tarif_icon-2.png" alt="tarif-2">
+                        <p>Premium</p>
+                    </div>
+                    <div class="tarif-main">
+                        <div class="tafif-main__price price">До <span class="price-red">250</span> Мбит/с</div>
+                        <div class="tarif__info">максимальные скорость и качество, любое кол-во устройств одновременно</div>
+                        <div class="tarif__info">срок действия 30 дней</div>
+                        <div class="tarif__info">стоимость 250 грн/мес</div>
+                    </div>
+                    <div class="tarif__btn">
+                        <button class="btn-blue-click btn-red">подключить</button>
+                    </div>
+                    <div class="tarif__detals">
+                        показать детали тарифа
+                    </div>
+                </div>
+                <div class="tarif-3">
+                    <div class="tarif-top yellow">
+                        <img src="img/tarif_icon-3.png" alt="tarif-3">
+                        <p>Optimal</p>
+                    </div>
+                    <div class="tarif-main">
+                        <div class="tafif-main__price price">До <span class="price-yellow">250</span> Мбит/с</div>
+                        <div class="tarif__info">максимальные скорость и качество, любое кол-во устройств одновременно</div>
+                        <div class="tarif__info">срок действия 30 дней</div>
+                        <div class="tarif__info">стоимость 250 грн/мес</div>
+                    </div>
+                    <div class="tarif__btn">
+                        <button class="btn-blue-click btn-yellow">подключить</button>
+                    </div>
+                    <div class="tarif__detals">
+                        показать детали тарифа
+                    </div>
+                </div>
+                <div class="tarif-4">
+                    <div class="tarif-top green">
+                        <img src="img/tarif_icon-4.png" alt="tarif-4">
+                        <p>Base</p>
+                    </div>
+                    <div class="tarif-main">
+                        <div class="tafif-main__price price">До <span class="price-green">250</span> Мбит/с</div>
+                        <div class="tarif__info">максимальные скорость и качество, любое кол-во устройств одновременно</div>
+                        <div class="tarif__info">срок действия 30 дней</div>
+                        <div class="tarif__info">стоимость 250 грн/мес</div>
+                    </div>
+                    <div class="tarif__btn">
+                        <button class="btn-blue-click btn-green">подключить</button>
+                    </div>
+                    <div class="tarif__detals">
+                        показать детали тарифа
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="answer">
+        <div class="container">
+            <div class="info__titel">
+                <h2>Почему выбирают нас?</h2>
+            </div>
+            <div class="answer__info">
+                <div class="answer-left">
+                    <div class="answer-card answer__info-1">
+                        <div class="answer__info-text">
+                            <h3 class="answer__title answer__title-glav a-1">
+                                Нам доверяют
+                            </h3>
+                            <p class="answer__text answer__text-glav">
+                                Более 20 лет работы, наши клиенты уверены и 
+                                довольны качеством предоставляемых услуг.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="answer-right">
+                    <div class="answer-card answer__info-2">
+                        <div class="answer__info-text">
+                            <h3 class="answer__title a-2">
+                                Нет границ
+                            </h3>
+                            <p class="answer__text">
+                                Круглосуточный доступ к интернету и ТВ, отсутствие повременной тарификации.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="answer-left">
+                    <div class="answer-card answer__info-3">
+                        <div class="answer__info-text">
+                            <h3 class="answer__title a-3">
+                                У нас надёжно
+                            </h3>
+                            <p class="answer__text">
+                                Мы никогда не проведём инсталляцию в опасном для оборудования месте и регулярно проводим профилактические работы
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="answer-right">
+                    <div class="answer-card answer__info-4">
+                        <div class="answer__info-text">
+                            <h3 class="answer__title a-4">
+                                Оперативно и сразу
+                            </h3>
+                            <p class="answer__text">
+                                Наша техподержка готова ответить на ваши вопросы с 7:00 по 23:00 без перерывов и выходных
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="answer-left">
+                    <div class="answer-card answer__info-5">
+                        <div class="answer__info-text">
+                            <h3 class="answer__title a-5">
+                                Современно и качественно
+                            </h3>
+                            <p class="answer__text">
+                                Квалифицированные специалисты работают с сертифицированным оборудованием чтобы наши клиенты могли пользоваться качественным интернетом
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="answer-right">
+                    <div class="answer-card answer__info-6">
+                        <div class="answer__info-text">
+                            <h3 class="answer__title a-6">
+                                Всё конфиденциально
+                            </h3>
+                            <p class="answer__text">
+                                Мы не распостраняем личныю информацию наших клиентов, нам важно ваше доверие
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="questions">
+        <div class="container">
+            <div class="questions-info">
+                <div class="info__titel">
+                    <h2>Часто задаваемые вопросы</h2>
+                </div>
+                <div class="info__more">
+                    <a class="info__more-link" href="#">
+                        Больше информации...
+                    </a>
+                </div>
+            </div>
+            <div class="qa-block" onclick="qaFunction(event)">
+                <div class="qa-block-top">
+                <div class="qa-block-question-top-question">
+                    <p><strong>
+                    Q: Сколько времени занимает прокладка кабеля?
+                    </strong></p>
+                </div>
+                <div class="qa-block-question-top-x">
+                    <p><strong><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 768 768">
+                        <title></title>
+                        <g id="icomoon-ignore">
+                        </g>
+                        <path fill="#000" d="M160 416h192v192c0 17.664 14.336 32 32 32s32-14.336 32-32v-192h192c17.664 0 32-14.336 32-32s-14.336-32-32-32h-192v-192c0-17.664-14.336-32-32-32s-32 14.336-32 32v192h-192c-17.664 0-32 14.336-32 32s14.336 32 32 32z"></path>
+                        </svg></strong></p>
+                </div>
+                </div>
+                <div class="qa-block-down">
+                <div class="qa-block-answer">
+                    А: В зависимости от сложности монтажа время прокладки кабеля - от 30 до 60 минут.
+                </div>
+                </div>
+            </div>
+            <div class="qa-block" onclick="qaFunction(event)">
+                <div class="qa-block-top">
+                <div class="qa-block-question-top-question">
+                    <p><strong>
+                    Q: Влияет ли на работу интернета мощность компьютера ?
+                    </strong></p>
+                </div>
+                <div class="qa-block-question-top-x">
+                    <p><strong><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 768 768">
+                        <title></title>
+                        <g id="icomoon-ignore">
+                        </g>
+                        <path fill="#000" d="M160 416h192v192c0 17.664 14.336 32 32 32s32-14.336 32-32v-192h192c17.664 0 32-14.336 32-32s-14.336-32-32-32h-192v-192c0-17.664-14.336-32-32-32s-32 14.336-32 32v192h-192c-17.664 0-32 14.336-32 32s14.336 32 32 32z"></path>
+                        </svg></strong></p>
+                </div>
+                </div>
+                <div class="qa-block-down">
+                <div class="qa-block-answer">
+                    А: В зависимости от сложности монтажа время прокладки кабеля - от 30 до 60 минут.
+                </div>
+                </div>
+            </div>
+            <div class="qa-block" onclick="qaFunction(event)">
+                <div class="qa-block-top">
+                <div class="qa-block-question-top-question">
+                    <p><strong>
+                    Q: Какой кабель прокладывается по квартире ?
+                    </strong></p>
+                </div>
+                <div class="qa-block-question-top-x">
+                    <p><strong><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 768 768">
+                        <title></title>
+                        <g id="icomoon-ignore">
+                        </g>
+                        <path fill="#000" d="M160 416h192v192c0 17.664 14.336 32 32 32s32-14.336 32-32v-192h192c17.664 0 32-14.336 32-32s-14.336-32-32-32h-192v-192c0-17.664-14.336-32-32-32s-32 14.336-32 32v192h-192c-17.664 0-32 14.336-32 32s14.336 32 32 32z"></path>
+                        </svg></strong></p>
+                </div>
+                </div>
+                <div class="qa-block-down">
+                <div class="qa-block-answer">
+                    А: В зависимости от сложности монтажа время прокладки кабеля - от 30 до 60 минут.
+                </div>
+                </div>
+            </div>
+            <div class="qa-block" onclick="qaFunction(event)">
+                <div class="qa-block-top">
+                <div class="qa-block-question-top-question">
+                    <p><strong>
+                    Q: Утеря или смена пароля
+                    </strong></p>
+                </div>
+                <div class="qa-block-question-top-x">
+                    <p><strong><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 768 768">
+                        <title></title>
+                        <g id="icomoon-ignore">
+                        </g>
+                        <path fill="#000" d="M160 416h192v192c0 17.664 14.336 32 32 32s32-14.336 32-32v-192h192c17.664 0 32-14.336 32-32s-14.336-32-32-32h-192v-192c0-17.664-14.336-32-32-32s-32 14.336-32 32v192h-192c-17.664 0-32 14.336-32 32s14.336 32 32 32z"></path>
+                        </svg></strong></p>
+                </div>
+                </div>
+                <div class="qa-block-down">
+                <div class="qa-block-answer">
+                    А: В зависимости от сложности монтажа время прокладки кабеля - от 30 до 60 минут.
+                </div>
+                </div>
+            </div>
+            <div class="qa-block" onclick="qaFunction(event)">
+                <div class="qa-block-top">
+                <div class="qa-block-question-top-question">
+                    <p><strong>
+                    Q: Смена тарифа (изменение скорости канала)
+                    </strong></p>
+                </div>
+                <div class="qa-block-question-top-x">
+                    <p><strong><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 768 768">
+                        <title></title>
+                        <g id="icomoon-ignore">
+                        </g>
+                        <path fill="#000" d="M160 416h192v192c0 17.664 14.336 32 32 32s32-14.336 32-32v-192h192c17.664 0 32-14.336 32-32s-14.336-32-32-32h-192v-192c0-17.664-14.336-32-32-32s-32 14.336-32 32v192h-192c-17.664 0-32 14.336-32 32s14.336 32 32 32z"></path>
+                        </svg></strong></p>
+                </div>
+                </div>
+                <div class="qa-block-down">
+                <div class="qa-block-answer">
+                    А: В зависимости от сложности монтажа время прокладки кабеля - от 30 до 60 минут.
+                </div>
+                </div>
+            </div>
+            <div class="qa-block" onclick="qaFunction(event)">
+                <div class="qa-block-top">
+                <div class="qa-block-question-top-question">
+                    <p><strong>
+                    Q: Приостановление услуг Satellite Net Service
+                    </strong></p>
+                </div>
+                <div class="qa-block-question-top-x">
+                    <p><strong><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 768 768">
+                        <title></title>
+                        <g id="icomoon-ignore">
+                        </g>
+                        <path fill="#000" d="M160 416h192v192c0 17.664 14.336 32 32 32s32-14.336 32-32v-192h192c17.664 0 32-14.336 32-32s-14.336-32-32-32h-192v-192c0-17.664-14.336-32-32-32s-32 14.336-32 32v192h-192c-17.664 0-32 14.336-32 32s14.336 32 32 32z"></path>
+                        </svg></strong></p>
+                </div>
+                </div>
+                <div class="qa-block-down">
+                <div class="qa-block-answer">
+                    А: В зависимости от сложности монтажа время прокладки кабеля - от 30 до 60 минут.
+                </div>
+                </div>
+            </div>
+            <div class="qa-block" onclick="qaFunction(event)">
+                <div class="qa-block-top">
+                <div class="qa-block-question-top-question">
+                    <p><strong>
+                    Q: Нету ответа на мой вопрос...
+                    </strong></p>
+                </div>
+                <div class="qa-block-question-top-x">
+                    <p><strong><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 768 768">
+                        <title></title>
+                        <g id="icomoon-ignore">
+                        </g>
+                        <path fill="#000" d="M160 416h192v192c0 17.664 14.336 32 32 32s32-14.336 32-32v-192h192c17.664 0 32-14.336 32-32s-14.336-32-32-32h-192v-192c0-17.664-14.336-32-32-32s-32 14.336-32 32v192h-192c-17.664 0-32 14.336-32 32s14.336 32 32 32z"></path>
+                        </svg></strong></p>
+                </div>
+                </div>
+                <div class="qa-block-down">
+                <div class="qa-block-answer">
+                    А: В зависимости от сложности монтажа время прокладки кабеля - от 30 до 60 минут.
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    
+    <section class="news">
+        <div class="container">
+            <div class="news__info">
+                <div class="info__titel">
+                    <h2>Новостая лента</h2>
+                </div>
+                <div class="info__more">
+                    <a class="info__more-link" href="#">
+                        Больше новостей...
+                    </a>
+                </div>
+            </div>
+            <div class="news__item">
+                <div class="news__inner">
+                    <div class="news__item-info">
+                        <p>
+                        <span>Нагадуємо, що з 9 жовтня тариф 
+                        на перевезення пасажирів</span> на 
+                        міських автобусних маршрутах 
+                        встановлено у розмірі 10 грн. 
+                        Тариф на перевезення пасажирів 
+                        на тролейбусних маршрутах не 
+                        змінюється.
+                        </p>
+                        <p>
+                        Рішення щодо підвищення цін
+                        на перевещення пасажирів на
+                        тролейбусних маршрутах буде
+                        підніматися не раніше грудня.
+                        </p>
+                    </div>
+                    <div class="news__item-img">
+                        <img src="img/news_icon.png" alt="">
+                    </div>
+                </div>
+                <div class="news__inner">
+                    <div class="news__item-info">
+                        <p>
+                        <span>В Славянске на главпочтамте 
+                        открыли центр вакцинации. </span> 
+                        С сегодняшнего дня в Славянске 
+                        открывается еще один пункт 
+                        вакцинации. Он будет работать в 
+                        центральном отделении «Укрпочты» 
+                        по адресу ул. Свободы, 1, с 9:00 до 
+                        14:00. 
+                        </p>
+                        <p>
+                        Сделать прививку от коронавируса 
+                        здесь может любой желающий, 
+                        достигший 18 лет. 
+                        </p>
+                    </div>
+                    <div class="news__item-img">
+                        <img src="img/news_icon.png" alt="">
+                    </div>
+                </div>
+                <div class="news__inner">
+                    <div class="news__item-info">
+                        <p>
+                        <span>Нагадуємо, що з 9 жовтня тариф 
+                        на перевезення пасажирів</span>  на 
+                        міських автобусних маршрутах 
+                        встановлено у розмірі 10 грн. 
+                        Тариф на перевезення пасажирів 
+                        на тролейбусних маршрутах не 
+                        змінюється.
+                        </p>
+                        <p>
+                        Рішення щодо підвищення цін
+                        на перевещення пасажирів на
+                        тролейбусних маршрутах буде
+                        підніматися не раніше грудня.
+                        </p>
+                    </div>
+                    <div class="news__item-img">
+                        <img src="img/news_icon.png" alt="">
+                    </div>
+                </div>
+                <div class="news__inner">
+                    <div class="news__item-info">
+                        <p>
+                        <span>Нагадуємо, що з 9 жовтня тариф 
+                        на перевезення</span> пасажирів на 
+                        міських автобусних маршрутах 
+                        встановлено у розмірі 10 грн. 
+                        Тариф на перевезення пасажирів 
+                        на тролейбусних маршрутах не 
+                        змінюється.
+                        </p>
+                        <p>
+                        Рішення щодо підвищення цін
+                        на перевещення пасажирів на
+                        тролейбусних маршрутах буде
+                        підніматися не раніше грудня.
+                        </p>
+                    </div>
+                    <div class="news__item-img">
+                        <img src="img/news_icon.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer__main">
+            <div class="container">
+                <div class="footer__inner">
+                <div class="footer__info">
+                    <div class="footer__info-img">
+                        <a href="#">
+                            <img src="img/footer-logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="footer__info-text">
+                        <p>
+                            &copy; 2001-2021 ООО «Satellite Net Service» Все права защищены.
+    
+                        </p>
+                        <p>
+                            Использование материалов этого сайта возможно только с предварительного письменого разрешения «Satellite Net Service»  
+                        </p>
+                    </div>
+                </div>
+                    <div class="footer__contacts-address">
+                        <h5>Центры обслуживания абонентов</h5>
+                        <ul class="footer__contacts-item">
+                            <li class="footer__contacts-list">
+                                <a href="https://www.google.com.ua/maps/place/%D1%83%D0%BB.+%D0%A1%D0%B2%D0%BE%D0%B1%D0%BE%D0%B4%D1%8B,+23,+%D0%A1%D0%BB%D0%B0%D0%B2%D1%8F%D0%BD%D1%81%D0%BA,+%D0%94%D0%BE%D0%BD%D0%B5%D1%86%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+84122/@48.847805,37.6102713,20.75z/data=!4m13!1m7!3m6!1s0x40df9ad080bc48b7:0x16df1ec0fcec3aa7!2z0YPQuy4g0KHQstC-0LHQvtC00YssIDIzLCDQodC70LDQstGP0L3RgdC6LCDQlNC-0L3QtdGG0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCA4NDEyMg!3b1!8m2!3d48.8476866!4d37.6102488!3m4!1s0x40df9ad080bc48b7:0x16df1ec0fcec3aa7!8m2!3d48.8476866!4d37.6102488?hl=ru" target="_blanck">г. Славянск, ул. Свободы, 23-a</a>
+                            </li>
+                            <li class="footer__contacts-list">
+                                <a href="https://www.google.com.ua/maps/place/%D1%83%D0%BB.+%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F,+14,+%D0%A1%D0%BF%D0%B0%D1%80%D1%82%D0%B0%D0%BA,+%D0%94%D0%BE%D0%BD%D0%B5%D1%86%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+86080/@48.0812712,37.7729098,20z/data=!4m13!1m7!3m6!1s0x40e084e3df700c9b:0x883394e5f898956b!2z0YPQuy4g0KbQtdC90YLRgNCw0LvRjNC90LDRjywgMTQsINCh0L_QsNGA0YLQsNC6LCDQlNC-0L3QtdGG0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCA4NjA4MA!3b1!8m2!3d48.0812364!4d37.7729434!3m4!1s0x40e084e3df700c9b:0x883394e5f898956b!8m2!3d48.0812364!4d37.7729434?hl=ru" target="_blanck">г. Барвенково, ул. Центральная, 14а</a>
+                            </li>
+                            <li class="footer__contacts-list">
+                                <a href="#" target="_blanck">пгт. Очеретино, м-н Гидростроителей 12</a>
+                            </li>
+                        </ul>
+                        <h5>Время работы техподдержки</h5>
+                        <ul class="footer__contacts-item-time">
+                            <li class="footer__contacts-list-time">
+                                Пн-Вс с 7:00 по 23:00
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__contacts-phone">
+                        <h5>
+                            Техподержка
+                        </h5>
+                        <ul class="footer__contacts-item-social">
+                            <li class="footer__contacts-list-s1">
+                                <a href="tel:+38(050)8145024">+38(050)8145024</a>
+                            </li>
+                            <li class="footer__contacts-list-s2">
+                                <a href="tel:+38(050)8145024">+38(093)8145024</a>
+                            </li>
+                            <li class="footer__contacts-list-s3">
+                                <a href="tel:+38(050)8145024">+38(067)8145024</a>
+                            </li>
+                        </ul>
+                        <h5>
+                            Напишите нам
+                        </h5>
+                        <ul class="footer__contacts-item-emil">
+                            <li class="footer__contacts-list-email">
+                                <a href="#">support@slav.dn.ua</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__contacts-social">
+                        <ul>
+                            <li><a href="#"><svg width="22px" height="22px" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" class="icon">
+                                <path d="M880 112H144c-17.7 0-32 14.3-32 32v736c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V144c0-17.7-14.3-32-32-32zm-92.4 233.5h-63.9c-50.1 0-59.8 23.8-59.8 58.8v77.1h119.6l-15.6 120.7h-104V912H539.2V602.2H434.9V481.4h104.3v-89c0-103.3 63.1-159.6 155.3-159.6 44.2 0 82.1 3.3 93.2 4.8v107.9z"/>
+                              </svg></a></li>
+
+
+                              <li><a href="#"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                viewBox="0 0 512 512" style="enable-background:new 0 0 22 22;" xml:space="preserve">
+                           <g>
+                               <g>
+                                   <path d="M256.064,0h-0.128C114.784,0,0,114.816,0,256c0,56,18.048,107.904,48.736,150.048l-31.904,95.104l98.4-31.456
+                                       C155.712,496.512,204,512,256.064,512C397.216,512,512,397.152,512,256S397.216,0,256.064,0z M405.024,361.504
+                                       c-6.176,17.44-30.688,31.904-50.24,36.128c-13.376,2.848-30.848,5.12-89.664-19.264C189.888,347.2,141.44,270.752,137.664,265.792
+                                       c-3.616-4.96-30.4-40.48-30.4-77.216s18.656-54.624,26.176-62.304c6.176-6.304,16.384-9.184,26.176-9.184
+                                       c3.168,0,6.016,0.16,8.576,0.288c7.52,0.32,11.296,0.768,16.256,12.64c6.176,14.88,21.216,51.616,23.008,55.392
+                                       c1.824,3.776,3.648,8.896,1.088,13.856c-2.4,5.12-4.512,7.392-8.288,11.744c-3.776,4.352-7.36,7.68-11.136,12.352
+                                       c-3.456,4.064-7.36,8.416-3.008,15.936c4.352,7.36,19.392,31.904,41.536,51.616c28.576,25.44,51.744,33.568,60.032,37.024
+                                       c6.176,2.56,13.536,1.952,18.048-2.848c5.728-6.176,12.8-16.416,20-26.496c5.12-7.232,11.584-8.128,18.368-5.568
+                                       c6.912,2.4,43.488,20.48,51.008,24.224c7.52,3.776,12.48,5.568,14.304,8.736C411.2,329.152,411.2,344.032,405.024,361.504z"/>
+                               </g>
+                           </g>
+                           <g>
+                           </g>
+                           <g>
+                           </g>
+                           <g>
+                           </g>
+                           <g>
+                           </g>
+                           <g>
+                           </g>
+                           <g>
+                           </g>
+                           <g>
+                           </g>
+                           <g>
+                           </g>
+                           <g>
+                           </g>
+                           <g>
+                           </g>
+                           <g>
+                           </g>
+                           <g>
+                           </g>
+                           <g>
+                           </g>
+                           <g>
+                           </g>
+                           <g>
+                           </g>
+                           </svg>
+                           </a></li>
+                           <li><a href="#">
+                            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                            viewBox="0 0 512 512" style="enable-background:new 0 0 22 22;" xml:space="preserve">
+                       <g>
+                           <g>
+                               <path d="M352,0H160C71.648,0,0,71.648,0,160v192c0,88.352,71.648,160,160,160h192c88.352,0,160-71.648,160-160V160
+                                   C512,71.648,440.352,0,352,0z M464,352c0,61.76-50.24,112-112,112H160c-61.76,0-112-50.24-112-112V160C48,98.24,98.24,48,160,48
+                                   h192c61.76,0,112,50.24,112,112V352z"/>
+                           </g>
+                       </g>
+                       <g>
+                           <g>
+                               <path d="M256,128c-70.688,0-128,57.312-128,128s57.312,128,128,128s128-57.312,128-128S326.688,128,256,128z M256,336
+                                   c-44.096,0-80-35.904-80-80c0-44.128,35.904-80,80-80s80,35.872,80,80C336,300.096,300.096,336,256,336z"/>
+                           </g>
+                       </g>
+                       <g>
+                           <g>
+                               <circle cx="393.6" cy="118.4" r="17.056"/>
+                           </g>
+                       </g>
+                       <g>
+                       </g>
+                       <g>
+                       </g>
+                       <g>
+                       </g>
+                       <g>
+                       </g>
+                       <g>
+                       </g>
+                       <g>
+                       </g>
+                       <g>
+                       </g>
+                       <g>
+                       </g>
+                       <g>
+                       </g>
+                       <g>
+                       </g>
+                       <g>
+                       </g>
+                       <g>
+                       </g>
+                       <g>
+                       </g>
+                       <g>
+                       </g>
+                       <g>
+                       </g>
+                       </svg>
+                           </a></li>
+
+                           <li><a href="#"><svg id="Bold" enable-background="new 0 0 24 24" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="m12 24c6.629 0 12-5.371 12-12s-5.371-12-12-12-12 5.371-12 12 5.371 12 12 12zm-6.509-12.26 11.57-4.461c.537-.194 1.006.131.832.943l.001-.001-1.97 9.281c-.146.658-.537.818-1.084.508l-3-2.211-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.121l-6.871 4.326-2.962-.924c-.643-.204-.657-.643.136-.953z"/></svg></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="plagins/slider/slick.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        function qaFunction(event) {
+        let qaBlock = event.target.closest('.qa-block');
+        let qaBlockDown= qaBlock.childNodes[3];
+        let qaBlockX = qaBlock.childNodes[1].childNodes[3];
+
+        if (getComputedStyle(qaBlockDown).maxHeight == "0px"){
+        qaBlockDown.style.maxHeight = "60px";
+        qaBlockX.style.transform = "rotate(45deg)";
+        }
+        else {
+        qaBlockDown.style.maxHeight = "0px";
+        qaBlockX.style.transform = "rotate(0deg)";
+        }
+       }
+
+    //    const isMobile = {
+    //        Android: function (){
+    //            return navigator.userAgent.match(/Android/i);
+    //        },
+    //        BlackBerry: function (){
+    //            return navigator.userAgent.match(/BlackBerry/i);
+    //        },
+    //        iOS: function (){
+    //            return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+    //        },
+    //        Opera: function (){
+    //            return navigator.userAgent.match(/Opera Mini/i);
+    //        },
+    //        Windows: function (){
+    //            return navigator.userAgent.match(/IEMobile/i);
+    //        },
+    //        any: function(){
+    //            return(
+    //                isMobile.Android() ||
+    //                isMobile.BlackBerry() ||
+    //                isMobile.iOS() ||
+    //                isMobile.Opera() ||
+    //                isMobile.Windows());
+    //        }
+    //    };
+    //    if(isMobile.any()){
+    //        document.body.classList.add('_pc');
+    //    }else{
+    //     document.body.classList.add('_touch');
+    //    }
+    </script>
+</body>
+</html>
